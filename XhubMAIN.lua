@@ -48,7 +48,7 @@ loadingText.TextScaled = true
 loadingText.Parent = background
 
 -- Animate progress bar (30 seconds)
-local tweenInfo = TweenInfo.new(30, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+local tweenInfo = TweenInfo.new(45, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
 local goal = { Size = UDim2.new(1, 0, 1, 0) }
 TweenService:Create(progressBar, tweenInfo, goal):Play()
 
